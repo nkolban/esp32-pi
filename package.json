@@ -1,0 +1,24 @@
+{
+  "name": "esp32-pi",
+  "version": "1.0.0",
+  "description": "ESP32 environment on Raspberry Pi",
+  "main": "esp32-pi.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-ws": "^2.0.0",
+    "johnny-five": "^0.10.0",
+    "raspi-io": "^6.1.0",
+    "serialport": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "esp32",
+    "DevKitC",
+    "raspberry-pi"
+  ],
+  "author": "Neil Kolban",
+  "license": "ISC"
+}
